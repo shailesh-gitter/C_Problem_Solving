@@ -16,3 +16,15 @@ Each directory contains a standalone problem case study, including:
 *   Data type boundary detection and integer overflow prevention.
 *   In-place memory manipulation and zero-allocation algorithms.
 *   Deterministic state tracking and computational cycles.
+
+
+## Implemented Programs
+
+| File | Concept / Paradigm | Time Complexity | Space Complexity (Call Stack) |
+|---|---|---|---|
+| `hanoi_tower.c` | Tree Recursion, Divide & Conquer | $O(2^n)$ | $O(n)$ |
+
+### Compilation & Execution
+```bash
+gcc -Wall -Wextra -std=c11 hanoi_tower.c -o hanoi_tower
+./hanoi_tower
