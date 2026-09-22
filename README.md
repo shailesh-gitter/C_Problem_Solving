@@ -22,7 +22,7 @@ Each directory contains a standalone problem case study, including:
 
 | File | Concept / Paradigm | Time Complexity | Space Complexity (Call Stack) |
 |---|---|---|---|
-| `hanoi_tower.c` | Tree Recursion, Divide & Conquer | $O(2^n)$ | $O(n)$ |
+| `01_recursion/hanoi_tower.c` | Tree Recursion, Divide & Conquer | $O(2^n)$ | $O(n)$ |
 
 ### Compilation & Execution
 ```bash
