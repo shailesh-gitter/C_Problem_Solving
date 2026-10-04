@@ -1,13 +1,11 @@
-# Ignore everything by default
-*
-
-# Whitelist essential source and documentation files
-!*.c
-!*.h
-!*.md
-!.gitignore
-
-# Ignore VS Code configuration directory
-.vscode/
+# 1. Ignore college and practice folders
 college_problems/
 practice_programs/
+.vscode/
+
+# 2. Ignore compiled object and default binaries
+*.o
+*.out
+
+# 3. Explicitly ignore binaries inside topic folders
+01_recursion/rotations
