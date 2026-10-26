@@ -6,6 +6,13 @@ practice_programs/
 # 2. Ignore compiled object and default binaries
 *.o
 *.out
+a.out
+*.exe
 
 # 3. Explicitly ignore binaries inside topic folders
+01_recursion/sqrt
 01_recursion/rotations
+arrays/2d
+arrays/average
+arrays/random
+arrays/therandom
