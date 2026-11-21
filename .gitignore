@@ -1,25 +1,16 @@
-# 1. Ignore college and practice folders
-college_problems/
+# 1. Ignore everything by default
+*
+
+# 2. Allow all subdirectories so Git can scan them
+!*/
+
+# 3. Re-ignore specific folders you don't want on GitHub
 practice_programs/
-.vscode/
+college_problems/
 
-# 2. Ignore compiled object and default binaries
-*.o
-*.out
-a.out
-*.exe
-
-# 3. Explicitly ignore binaries inside topic folders
-01_recursion/sqrt
-01_recursion/rotations
-arrays/2d
-arrays/average
-arrays/random
-arrays/therandom
-arrays/last_name
-arrays/the_random_walker
-arrays/the_sentence_reverser
-arrays/phone_number
-arrays/magic_square
-arrays/no_of_notes
-arrays/the_anagram_finder
+# 4. Whitelist only the file extensions you want to track
+!*.c
+!*.h
+!*.s
+!*.md
+!.gitignore
